@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:padding="1dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/category_feature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:layout_margin="6dp"
+        android:textSize="16dp"
+        android:shadowDy="1.0"
+        android:shadowColor="@color/grey_light"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/feature_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"/>
+</LinearLayout>

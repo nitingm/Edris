@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/compare_feature_layout"
+    android:background="@drawable/feature_border"
+    android:padding="1dp">
+
+    <TextView
+        android:id="@+id/feature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/design_default_color_secondary"
+        android:text="Release Date"
+        android:textSize="16dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:weightSum="4.5">
+        <TextView
+            android:id="@+id/product_1_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Product 1"
+            android:textSize="14dp"
+            android:layout_margin="1dp"/>
+        <TextView
+            android:id="@+id/description1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="description"
+            android:textSize="14dp"
+            android:layout_margin="1dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4.5"
+        android:layout_margin="2dp">
+        <TextView
+            android:id="@+id/product_2_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Product 2"
+            android:textSize="14dp"
+            android:layout_margin="1dp"/>
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="description"
+            android:textSize="14dp"
+            android:layout_margin="1dp"/>
+    </LinearLayout>
+</LinearLayout>
